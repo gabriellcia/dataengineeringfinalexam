@@ -1,0 +1,14 @@
+# Core Edge AI & Computer Vision
+opencv-python-headless
+numpy
+tflite-runtime  # Atau tensorflow jika di lingkungan non-edge
+pillow
+
+# Data Engineering & Transport
+paho-mqtt
+protobuf
+jsonlines
+
+# Utilities
+psutil
+urllib3
