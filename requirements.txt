@@ -1,14 +1,15 @@
-# Core Edge AI & Computer Vision
-opencv-python-headless
-numpy
-tflite-runtime  # Atau tensorflow jika di lingkungan non-edge
-pillow
+# Core Computer Vision
+opencv-python-headless>=4.8.0
 
-# Data Engineering & Transport
-paho-mqtt
-protobuf
-jsonlines
+# Numerical Computing
+numpy>=1.24.0
 
-# Utilities
-psutil
-urllib3
+# Edge Inference (uncomment ONE based on your environment)
+# tflite-runtime>=2.13.0   # For edge devices (Raspberry Pi, Jetson Nano, etc.)
+# tensorflow>=2.13.0       # For development/non-edge machines
+
+# IoT Transport
+paho-mqtt>=1.6.1
+
+# System Monitoring
+psutil>=5.9.0
